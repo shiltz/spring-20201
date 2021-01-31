@@ -8,6 +8,8 @@ spring:
     data: data.sql
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
   h2:
     console:
       enabled: false
