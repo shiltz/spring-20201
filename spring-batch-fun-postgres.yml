@@ -5,7 +5,6 @@ spring:
     password: mysecretpassword
     url: jdbc:postgresql://0.0.0.0:5432/postgres
     initialization-mode: always
-    data: data.sql
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
